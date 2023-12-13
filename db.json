@@ -1,54 +1,66 @@
 {
-  "Cars_WishList": [
+  "Cars": [
     {
       "id": 1,
-      "Name and Year": "M340i, 2019", 
+      "Name and Year": "M340i",
+      "Year": "2019", 
       "Price": "65000$ to 75000$",
-      "Power": "382H hp, 500 Nm ",
+      "Power(hp)": "382",
+      "Torque(Nm)": "500",
       "Engine":"B9, 3 Liter Turbocharged I6",
-      "Image URL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.daehler-tuning.com%2Fbmw-3-series-g20-sedan%2F&psig=AOvVaw25xoBKXS7hosN0Zo8YN6s4&ust=1702456798503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiq0IHAiYMDFQAAAAAdAAAAABAJ" 
+      "ImageURL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.daehler-tuning.com%2Fbmw-3-series-g20-sedan%2F&psig=AOvVaw25xoBKXS7hosN0Zo8YN6s4&ust=1702456798503000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiq0IHAiYMDFQAAAAAdAAAAABAJ" 
     },
     {
       "id": 2,
-      "Name and Year": "Audi S5, 2018 ",
+      "Name and Year": "Audi S5",
+      "Year": "2018",
       "Price": "45000$ to 60000$",
-      "Power": "350 hp, 500 Nm",
+      "Power(hp)": "350",
+      "Torque(Nm)": "500",
       "Engine":"B9, 3 Liter Turbocharged V6",
-      "Image URL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flimitedslipblog.com%2F2018%2F06%2F08%2F2018-audi-s5-sportback%2F&psig=AOvVaw2bEGTqo4MJYHbzNyiCayrd&ust=1702457068066000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJD7xf3AiYMDFQAAAAAdAAAAABAj"
+      "ImageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flimitedslipblog.com%2F2018%2F06%2F08%2F2018-audi-s5-sportback%2F&psig=AOvVaw2bEGTqo4MJYHbzNyiCayrd&ust=1702457068066000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJD7xf3AiYMDFQAAAAAdAAAAABAj"
     },
     {
       "id": 3,
-      "Name and Year": "Audi S4, 2018",
+      "Name and Year": "Audi S4",
+      "Year": "2018",
       "Price": "40000$ to 60000$",
-      "Power": "350 hp, 500 Nm",
+      "Power(hp)": "350",
+      "Torque(Nm)": "500",
       "Engine":"B9, 3 Liter Turbocharged V6",
-      "Image URL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DJHqbwiAILgA&psig=AOvVaw0L6zpZLp8zTIuHUtOwn7Wn&ust=1702456955841000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjHi87AiYMDFQAAAAAdAAAAABAj"
+      "ImageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DJHqbwiAILgA&psig=AOvVaw0L6zpZLp8zTIuHUtOwn7Wn&ust=1702456955841000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjHi87AiYMDFQAAAAAdAAAAABAj"
 
     },
     {
       "id": 4,
-      "Name and Year": "X3 M40i, 2018",
+      "Name and Year": "X3 M40i",
+      "Year": "2018",
       "Price": "48000$ to 60000$",
-      "Power": "355 hp, 500 Nm",
+      "Power(hp)": "355",
+      "Torque(Nm)": "500",
       "Engine":"B9, 3 Liter Turbocharged I6",
-      "Image URL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dx34T2ExyPsQ&psig=AOvVaw1sIl1ESmYElpF37kSwbt7Z&ust=1702457150158000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiCsqPBiYMDFQAAAAAdAAAAABAD"
+      "ImageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dx34T2ExyPsQ&psig=AOvVaw1sIl1ESmYElpF37kSwbt7Z&ust=1702457150158000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiCsqPBiYMDFQAAAAAdAAAAABAD"
     },
     {
       "id": 5,
-      "Name and Year": "BMW 330i, 2019 ",
+      "Name": "BMW 330i",
+      "Year": "2019",
       "Price": "38000$ to 50000$",
-      "Power": "355 hp, 500 Nm",
+      "Power(hp)": "355",
+      "Torque(Nm)": "500",
       "Engine":"B48, 2 Liter Turbocharged",
-      "Image URL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.carsales.com.au%2Fcars%2Fdetails%2F2020-bmw-3-series-330i-m-sport-g20-auto%2FOAG-AD-22261297%2F&psig=AOvVaw0ffZft78rKkl5TuYy6n--S&ust=1702456910844000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjT-a_AiYMDFQAAAAAdAAAAABAD" 
+      "ImageURL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.carsales.com.au%2Fcars%2Fdetails%2F2020-bmw-3-series-330i-m-sport-g20-auto%2FOAG-AD-22261297%2F&psig=AOvVaw0ffZft78rKkl5TuYy6n--S&ust=1702456910844000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjT-a_AiYMDFQAAAAAdAAAAABAD" 
       
     },
     {
       "id": 6,
       "Name and Year": "Mercedes C43 AMG, 2018",
+      "Year": "2018",
       "Price": "40000$ to 60000$",
-      "Power": "385 hp, 520 Nm",
+      "Power(hp)": "385",
+      "Torque(Nm)": "520",
       "Engine":"3 Liter Turbocharged V6",
-      "Image URL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D971413&psig=AOvVaw0oQUVFEphp8O_aCxb-dfIx&ust=1702457264998000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOighdrBiYMDFQAAAAAdAAAAABAD" 
+      "ImageURL":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D971413&psig=AOvVaw0oQUVFEphp8O_aCxb-dfIx&ust=1702457264998000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOighdrBiYMDFQAAAAAdAAAAABAD" 
     }
      
   ]
