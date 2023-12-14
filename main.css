@@ -51,3 +51,19 @@ body, h1, h2, ul, li, p {
     background-color: #2980b9;
   }
   
+ul.cards {
+    list-style: none;
+  }
+  
+  ul.cards li {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  }
+ul.cards li img {
+    width: 100%;
+    height: auto; 
+}
