@@ -31,6 +31,19 @@ function getAllCars(){
     .then(res => res.json())
     .then(carData => carData.forEach(car => renderOneCar(car))) 
 }
+
+//Delete Car entry
+function deleteCar(id){
+    fetch(`http://localhost:3000/Cars/${id}`,{
+    method:'DELETE',
+    headers:{
+        'Content-Type':"application/json"
+    }
+    })
+    .then(res => res.json())
+    .then(car => console.log(car))
+}
+
 //Initial Render
 function initialize(){
     getAllCars()
