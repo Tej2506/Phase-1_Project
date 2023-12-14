@@ -22,7 +22,7 @@
             <input type="text" id="carYear" name="carYear" required>
             <br>
         
-            <label for="carPrice">Price:</label>
+            <label for="carPrice">Price(AUD):</label>
             <input type="text" id="carPrice" name="carPrice" required>
             <br>
         
@@ -44,7 +44,14 @@
         
             <input type="submit" value="Add Car" class = "button">
           </form>
+          
+          <div>
+            <button class="button" id="hightolow">Sort Price: High to Low</button>
+            <button class="button" id="lowtohigh">Sort Price: Low to High</button>
+          </div>
+
           <ul id = "car-list" class ="cards">
+            
 
           </ul>
     </div>
