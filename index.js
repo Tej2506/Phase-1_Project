@@ -19,6 +19,11 @@ function renderOneCar(car){
         </div>
 
         `
+ card.querySelector('#delete').addEventListener('click',()=>{
+    card.innerHTML =''
+    deleteCar(car.id)
+ })
+     
 
 // Add Car card to DOM
 document.querySelector('#car-list').appendChild(card)
