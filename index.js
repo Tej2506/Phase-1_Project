@@ -84,6 +84,19 @@ function deleteCar(id){
     .then(car => console.log(car))
 }
 
+// Update price
+function UpdatePrice(carObj){
+    fetch(`http://localhost:3000/Cars/${carObj.id}`,{
+        method:'PATCH',
+        headers:{
+            'Content-Type':"application/json"
+        },
+        body: JSON.stringify(carObj)
+    })
+    .then(res => res.json())
+    .then(car => console.log(car))
+}  
+
 //Initial Render
 function initialize(){
     getAllCars()
