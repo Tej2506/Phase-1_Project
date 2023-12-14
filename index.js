@@ -1,3 +1,6 @@
+//Event listener
+document.querySelector("#addCarForm").addEventListener('submit',AddCar)
+
 //DOM Functions
 function renderOneCar(car){
     //Build Car
