@@ -51,6 +51,19 @@ function getAllCars(){
     .then(carData => carData.forEach(car => renderOneCar(car))) 
 }
 
+// Post Car Data
+function UploadCarData(carObj){
+    fetch("http://localhost:3000/Cars",{
+        method:'POST',
+        headers:{
+            'Content-Type':"application/json"
+        },
+        body: JSON.stringify(carObj)
+    })
+    .then(res => res.json())
+    .then(car => console.log(car))
+}
+
 
 //Delete Car entry
 function deleteCar(id){
