@@ -69,6 +69,15 @@ function Sort(order){
             
         })
     }
+    else{
+        document.querySelector('ul').innerHTML=''
+        fetch(' http://localhost:3000/Cars')
+        .then(res => res.json())
+        .then(carData => {
+        carData.sort((a, b) => a.Price - b.Price).forEach(car => renderOneCar(car))
+            
+    })
+}}
 //Fetch Requests
 // Get Fetch for all Car resources
 function getAllCars(){
