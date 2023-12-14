@@ -58,6 +58,17 @@ function AddCar(event){
     UploadCarData(carObj)
     
 }
+// Sort Functionality
+function Sort(order){
+    if(order==="hightolow"){
+        document.querySelector('ul').innerHTML=''
+        fetch(' http://localhost:3000/Cars')
+        .then(res => res.json())
+        .then(carData => {
+        carData.sort((a, b) => b.Price - a.Price).forEach(car => renderOneCar(car))
+            
+        })
+    }
 //Fetch Requests
 // Get Fetch for all Car resources
 function getAllCars(){
