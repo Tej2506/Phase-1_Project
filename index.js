@@ -18,11 +18,18 @@ function renderOneCar(car){
             <button class="button"> Delete </button>
         </div>
 
-        `
+ // Delete card from DOM       `
  card.querySelector('#delete').addEventListener('click',()=>{
     card.innerHTML =''
     deleteCar(car.id)
  })
+//Update Car price in the card
+card.querySelector("#UpdatePrice").addEventListener('submit',(e)=>{
+    e.preventDefault()
+    car['Price'] = `${e.target.UpdatePrice.value} AUD`;
+    console.log(car['Price'])
+    UpdatePrice(car)
+})
 // Add Car card to DOM
 document.querySelector('#car-list').appendChild(card)
 }
