@@ -1,6 +1,11 @@
 //Event listener
 document.querySelector("#addCarForm").addEventListener('submit',AddCar)
-
+document.getElementById("hightolow").addEventListener('click',(e)=>{
+    Sort(e.target.id)
+})
+document.getElementById("lowtohigh").addEventListener('click',(e)=>{
+    Sort(e.target.id)
+})
 //DOM Functions
 function renderOneCar(car){
     //Build Car
