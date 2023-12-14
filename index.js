@@ -23,12 +23,26 @@ function renderOneCar(car){
     card.innerHTML =''
     deleteCar(car.id)
  })
-     
-
 // Add Car card to DOM
 document.querySelector('#car-list').appendChild(card)
 }
 
+function AddCar(event){
+    event.preventDefault()
+    let carObj = {
+        Name: event.target.carName.value,
+        Year: event.target.carYear.value,
+        Price: event.target.carPrice.value,
+        Power: event.target.carPower.value,
+        Torque: event.target.carTorque.value,
+        Engine: event.target.carEngine.value,
+        ImageURL: event.target.carImageURL.value
+    }
+    console.log(carObj)
+    renderOneCar(carObj)
+    UploadCarData(carObj)
+    
+}
 //Fetch Requests
 // Get Fetch for all Car resources
 function getAllCars(){
@@ -36,6 +50,7 @@ function getAllCars(){
     .then(res => res.json())
     .then(carData => carData.forEach(car => renderOneCar(car))) 
 }
+
 
 //Delete Car entry
 function deleteCar(id){
